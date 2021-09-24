@@ -1,0 +1,44 @@
+.blocks {
+    &__image {
+        position: relative;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        img {
+            filter: brightness(60%);
+            transition: 0.3s;
+        }
+    
+        img:hover  {
+            filter: blur(3px) brightness(50%);  
+        }
+    }
+
+    &__container {
+        max-width: 1240px;
+    
+
+    }
+
+
+    &__text {
+        color: var(--color-white);
+        top: 0;
+        left: 0;
+        padding: 60px 0px 0px 97px;
+        font-weight: 700;
+        position: absolute;
+        line-height: 1.2;  
+        font-size: 30px;
+    }
+    &__text4 {
+        color: var(--color-white);
+        top: 0;
+        left: 0;
+        padding: 105px 80px 104px 100px;
+        position: absolute;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}

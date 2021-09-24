@@ -1,0 +1,42 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/nav";
+@import "./components/hero";
+@import "./components/blocks";
+@import "./components/domain";
+@import "./components/read";
+@import "./components/lets";
+@import "./components/contact";
+@import "./components/simply";
+@import "./components/footer";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    /* position: relative; */
+    justify-content: flex-end;
+    width: 119px;
+    height: 39px;
+    color: var(--color-white);
+    background-color: var(--color-main);
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 74.2px;
+    font-size: 24px;
+    color: var(--color-logo);
+}

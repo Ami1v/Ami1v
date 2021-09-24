@@ -1,0 +1,35 @@
+.footer {
+    position: relative;
+    background-color: #fff;
+
+    .right-img {
+        position: absolute;
+        right: 6%;
+        top: -130%;
+    }
+
+    &__line {
+        position: relative;
+        border-top: 1px solid #d5dae6;
+        padding: 60px 0;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-content: start;
+    }
+    &__item {
+          margin-right: 3rem;
+          padding: 0 10px;
+    }
+}
+
+

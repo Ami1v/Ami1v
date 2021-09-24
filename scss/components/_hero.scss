@@ -1,0 +1,37 @@
+.hero {
+    padding: 36px 0;
+
+    &__container {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+
+        span.section-name {
+            color: var(--color-main);
+        }
+
+        span.page {
+            color: var(--color-main);
+            opacity: 0.5;
+        }
+    }
+    &__title {
+        color: var(--color-main);
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.5;
+        height: 50px;
+    }
+    &__para {
+        color: var(--color-text);
+        line-height: 1.2;
+        
+    }
+}
